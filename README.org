@@ -1,0 +1,11 @@
+#+Title: Emacs Appindicator Modes
+
+Collection of the small minor modes utilizing =appindicator= Emacs library
+
+* Appindicator-Pomm mode
+Icon to control timer in [[https://github.com/SqrtMinusOne/pomm.el][pomm.el]]
+Install it with quelpa:
+
+#+begin_src emacs-lisp
+  (quelpa '(appindicator-pomm :repo "jumper047/emacs-appindicator-modes" :fetcher github :files ("appindicator-pomm.el" "icons/egg-timer.svg")))
+#+end_src
